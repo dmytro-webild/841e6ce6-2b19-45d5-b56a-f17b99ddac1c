@@ -61,23 +61,23 @@ export default function LandingPage() {
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=1",
           imageAlt: "AI Data Visualization",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=1",
           imageAlt: "Code Development",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg?_wi=1",
           imageAlt: "Cloud Architecture",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg?_wi=1",
           imageAlt: "Neural Network",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg?_wi=1",
           imageAlt: "Data Projection",
         },
         {
@@ -153,7 +153,7 @@ export default function LandingPage() {
           quote: "Aiden Tech completely transformed our data pipeline. Efficient and reliable.",
           tag: "Tech",
           avatarSrc: "http://img.b2bpic.net/free-photo/close-up-equity-analyst-working-proprietary-firm-reading-annual-company-reports-evaluate_482257-132953.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=2",
           imageAlt: "portrait professional executive tech industry",
         },
         {
@@ -164,7 +164,7 @@ export default function LandingPage() {
           quote: "Incredible expertise in cloud scalability. Professional and fast.",
           tag: "SaaS",
           avatarSrc: "http://img.b2bpic.net/free-photo/young-girl-white-blazer-looks-nervous_114579-15696.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=2",
           imageAlt: "portrait professional executive tech industry",
         },
         {
@@ -175,7 +175,7 @@ export default function LandingPage() {
           quote: "The AI integration has saved our team hundreds of hours per week.",
           tag: "Enterprise",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020770.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg?_wi=2",
           imageAlt: "portrait professional executive tech industry",
         },
         {
@@ -186,7 +186,7 @@ export default function LandingPage() {
           quote: "Professional, knowledgeable, and always on schedule. Highly recommended.",
           tag: "Startup",
           avatarSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg?_wi=2",
           imageAlt: "portrait professional executive tech industry",
         },
         {
@@ -197,7 +197,7 @@ export default function LandingPage() {
           quote: "The best technical partner we've had. Excellent communication.",
           tag: "Fintech",
           avatarSrc: "http://img.b2bpic.net/free-photo/side-view-woman-holding-tablet_23-2149927578.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg?_wi=2",
           imageAlt: "portrait professional executive tech industry",
         },
       ]}
