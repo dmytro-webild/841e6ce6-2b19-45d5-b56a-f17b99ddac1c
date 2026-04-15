@@ -42,15 +42,16 @@ export default function LandingPage() {
       <HeroCarouselLogo
       logoText="AW Digital Designs"
       description="Professional web design services for businesses. Custom, high-performance websites for $1500 with reliable maintenance."
+      autoplayDelay={5000}
       buttons={[
         {
           text: "Get Started",          href: "#contact"},
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=1",          imageAlt: "Professional Web Design"},
+          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?w=1600&h=900&auto=format&fit=crop&q=90",          imageAlt: "Professional Web Design"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=1",          imageAlt: "Digital Solutions"},
+          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?w=1600&h=900&auto=format&fit=crop&q=90",          imageAlt: "Digital Solutions"},
       ]}
     />
   </div>
@@ -70,7 +71,7 @@ export default function LandingPage() {
         {
           title: "Custom Design",          description: "Tailored layouts that reflect your unique brand identity."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/african-american-team-collaborates-financial-project-business-space_482257-119790.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/african-american-team-collaborates-financial-project-business-space_482257-119790.jpg?w=1200&h=800&auto=format&fit=crop&q=90"
       mediaAnimation="slide-up"
     />
   </div>
@@ -88,7 +89,7 @@ export default function LandingPage() {
         {
           id: "f3",          title: "Client Communication",          content: "Direct support via awdigitalwebdesigns@gmail.com and 571-789-3731."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/close-up-shot-ai-scripts-displayed-pc-monitors_482257-110985.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/close-up-shot-ai-scripts-displayed-pc-monitors_482257-110985.jpg?w=1200&h=800&auto=format&fit=crop&q=90"
       mediaAnimation="blur-reveal"
     />
   </div>
