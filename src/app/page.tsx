@@ -29,61 +29,31 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Features",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Testimonials",
-          id: "testimonials",
-        },
+          name: "Testimonials",          id: "testimonials"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
-      brandName="Aiden Tech Solutions"
+      brandName="AW Digital Designs"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroCarouselLogo
-      logoText="Aiden Tech Solutions"
-      description="Empowering your business with scalable, AI-driven infrastructure and modern software solutions."
+      logoText="AW Digital Designs"
+      description="Professional web design services for businesses. Custom, high-performance websites for $1500 with reliable maintenance."
       buttons={[
         {
-          text: "Get Started",
-          href: "#contact",
-        },
+          text: "Get Started",          href: "#contact"},
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=1",
-          imageAlt: "AI Data Visualization",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=1",          imageAlt: "Professional Web Design"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=1",
-          imageAlt: "Code Development",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg?_wi=1",
-          imageAlt: "Cloud Architecture",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg?_wi=1",
-          imageAlt: "Neural Network",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg?_wi=1",
-          imageAlt: "Data Projection",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-wave-texture-background_474888-7161.jpg",
-          imageAlt: "Digital Tech",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=1",          imageAlt: "Digital Solutions"},
       ]}
     />
   </div>
@@ -92,21 +62,15 @@ export default function LandingPage() {
       <SplitAbout
       textboxLayout="split"
       useInvertedBackground={false}
-      title="Built for Innovation"
-      description="At Aiden Tech Solutions, we bridge the gap between complex digital challenges and streamlined, effective software systems. Our team provides custom development, cloud strategy, and AI-led business intelligence tailored to your specific goals."
+      title="Design That Drives Growth"
+      description="AW Digital Designs specializes in creating impactful digital storefronts for growing businesses. We combine modern aesthetics with functional performance to ensure your online presence works as hard as you do."
       bulletPoints={[
         {
-          title: "Scalable Infrastructure",
-          description: "Cloud systems that grow as you do.",
-        },
+          title: "Flat Fee Pricing",          description: "Full website builds for just $1500."},
         {
-          title: "AI Integration",
-          description: "Leveraging machine learning for smart operations.",
-        },
+          title: "Monthly Maintenance",          description: "Keep your site secure and updated for only $50/mo."},
         {
-          title: "Custom Software",
-          description: "Tailored code designed for your unique needs.",
-        },
+          title: "Custom Design",          description: "Tailored layouts that reflect your unique brand identity."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/african-american-team-collaborates-financial-project-business-space_482257-119790.jpg"
       mediaAnimation="slide-up"
@@ -116,24 +80,15 @@ export default function LandingPage() {
   <div id="features" data-section="features">
       <FeatureCardTwentyOne
       useInvertedBackground={true}
-      title="Comprehensive Capabilities"
-      description="High-impact services that drive digital performance and operational growth."
+      title="Our Service Model"
+      description="We believe in transparency and simplicity. Our straightforward approach helps your business thrive online without unnecessary complexity."
       accordionItems={[
         {
-          id: "f1",
-          title: "Enterprise Software",
-          content: "Robust, enterprise-grade software development for critical business tasks.",
-        },
+          id: "f1",          title: "Development Fee",          content: "A flat fee of $1500 covers the complete design and development of your professional website."},
         {
-          id: "f2",
-          title: "Data Analytics",
-          content: "Extracting meaningful business insights through custom analytics and ML.",
-        },
+          id: "f2",          title: "Maintenance Plan",          content: "For just $50/month, we handle updates, security, and minor tweaks to keep your site performing optimally."},
         {
-          id: "f3",
-          title: "Cloud Migration",
-          content: "Secure, efficient migration from legacy to modern cloud infrastructure.",
-        },
+          id: "f3",          title: "Client Communication",          content: "Direct support via awdigitalwebdesigns@gmail.com and 571-789-3731."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-shot-ai-scripts-displayed-pc-monitors_482257-110985.jpg"
       mediaAnimation="blur-reveal"
@@ -146,63 +101,10 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Marcus V.",
-          date: "Oct 2024",
-          title: "CEO",
-          quote: "Aiden Tech completely transformed our data pipeline. Efficient and reliable.",
-          tag: "Tech",
-          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-equity-analyst-working-proprietary-firm-reading-annual-company-reports-evaluate_482257-132953.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=2",
-          imageAlt: "portrait professional executive tech industry",
-        },
-        {
-          id: "2",
-          name: "Sarah L.",
-          date: "Sep 2024",
-          title: "Lead Engineer",
-          quote: "Incredible expertise in cloud scalability. Professional and fast.",
-          tag: "SaaS",
-          avatarSrc: "http://img.b2bpic.net/free-photo/young-girl-white-blazer-looks-nervous_114579-15696.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cyber-security-experts-working-with-tech-devices-neon-lights_23-2151645652.jpg?_wi=2",
-          imageAlt: "portrait professional executive tech industry",
-        },
-        {
-          id: "3",
-          name: "James K.",
-          date: "Aug 2024",
-          title: "Director",
-          quote: "The AI integration has saved our team hundreds of hours per week.",
-          tag: "Enterprise",
-          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020770.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/hallway-building_23-2149397571.jpg?_wi=2",
-          imageAlt: "portrait professional executive tech industry",
-        },
-        {
-          id: "4",
-          name: "Emily D.",
-          date: "Jul 2024",
-          title: "Founder",
-          quote: "Professional, knowledgeable, and always on schedule. Highly recommended.",
-          tag: "Startup",
-          avatarSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/digital-low-poly-abstract-background-with-connecting-lines-dots_1048-6337.jpg?_wi=2",
-          imageAlt: "portrait professional executive tech industry",
-        },
-        {
-          id: "5",
-          name: "David W.",
-          date: "Jun 2024",
-          title: "CTO",
-          quote: "The best technical partner we've had. Excellent communication.",
-          tag: "Fintech",
-          avatarSrc: "http://img.b2bpic.net/free-photo/side-view-woman-holding-tablet_23-2149927578.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/general-director-reviewing-data-analytics-with-her-team-successful-development-plan_482257-118674.jpg?_wi=2",
-          imageAlt: "portrait professional executive tech industry",
-        },
+          id: "1",          name: "Growth Focused",          date: "2024",          title: "Client",          quote: "AW Digital Designs delivered exactly what we needed within our budget. Highly responsive and professional.",          tag: "Web Design",          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-equity-analyst-working-proprietary-firm-reading-annual-company-reports-evaluate_482257-132953.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=2"},
       ]}
-      title="Trusted by Leaders"
-      description="Hear what our partners have to say about working with us."
+      title="Trusted by Local Businesses"
+      description="We value the trust our clients place in us to build their digital presence."
     />
   </div>
 
@@ -210,13 +112,12 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "sparkles-gradient",
-      }}
-      tag="Let's Talk"
-      title="Ready to scale?"
-      description="Reach out today to discuss your project and get a custom strategy."
+        variant: "sparkles-gradient"}}
+      tag="Contact Us"
+      title="Get Your Project Started"
+      description="Ready for a professional website? Reach us at awdigitalwebdesigns@gmail.com or call 571-789-3731."
       inputPlaceholder="Enter your email address"
-      buttonText="Send Request"
+      buttonText="Get a Quote"
     />
   </div>
 
@@ -224,33 +125,15 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "AW Digital",          items: [
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "Email: awdigitalwebdesigns@gmail.com",              href: "mailto:awdigitalwebdesigns@gmail.com"},
             {
-              label: "Services",
-              href: "#features",
-            },
-          ],
-        },
-        {
-          title: "Contact",
-          items: [
-            {
-              label: "info@aidentechnology.com",
-              href: "mailto:info@aidentechnology.com",
-            },
-            {
-              label: "+1 (555) 123-4567",
-              href: "tel:+15551234567",
-            },
+              label: "Phone: 571-789-3731",              href: "tel:+15717893731"},
           ],
         },
       ]}
-      logoText="Aiden Tech"
+      logoText="AW Digital Designs"
     />
   </div>
       </ReactLenis>
