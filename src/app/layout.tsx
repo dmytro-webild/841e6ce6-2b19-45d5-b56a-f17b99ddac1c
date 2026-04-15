@@ -8,6 +8,7 @@ import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Roboto } from "next/font/google";
 import { Open_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 
 
@@ -23,12 +24,9 @@ export const metadata: Metadata = {
 };
 
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -40,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
+        <body className={`${montserrat.variable} antialiased`}>
           <Tag />
           {children}
           <script
