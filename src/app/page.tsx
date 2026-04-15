@@ -8,7 +8,6 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TeamCardTen from '@/components/sections/team/TeamCardTen';
 
 export default function LandingPage() {
   return (
@@ -29,7 +28,6 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         { name: "About", id: "about" },
-        { name: "Team", id: "team" },
         { name: "Services", id: "features" },
         { name: "Contact", id: "contact" },
       ]}
@@ -68,27 +66,6 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/african-american-team-collaborates-financial-project-business-space_482257-119790.jpg?w=1200&h=800&auto=format&fit=crop&q=90"
       mediaAnimation="slide-up"
-    />
-  </div>
-
-  <div id="team" data-section="team">
-      <TeamCardTen
-      title="Meet the Team"
-      tag="Leadership"
-      memberVariant="card"
-      membersAnimation="slide-up"
-      useInvertedBackground={false}
-      members={[
-        {
-          id: "ceo",          name: "Aiden Wong (CEO)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=1",          imageAlt: "Aiden Wong"
-        },
-        {
-          id: "designer",          name: "Isaiah Lamb (Executive Designer)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=2",          imageAlt: "Isaiah Lamb"
-        },
-        {
-          id: "manager",          name: "Anthony Kim (General Manager)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=3",          imageAlt: "Anthony Kim"
-        }
-      ]}
     />
   </div>
 
