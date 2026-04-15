@@ -77,6 +77,7 @@ export default function LandingPage() {
       tag="Leadership"
       memberVariant="card"
       membersAnimation="slide-up"
+      useInvertedBackground={false}
       members={[
         {
           id: "ceo",          name: "Aiden Wong (CEO)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Aiden Wong"
