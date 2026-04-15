@@ -80,13 +80,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "ceo",          name: "Aiden Wong (CEO)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Aiden Wong"
+          id: "ceo",          name: "Aiden Wong (CEO)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=1",          imageAlt: "Aiden Wong"
         },
         {
-          id: "designer",          name: "Isaiah Lamb (Executive Designer)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Isaiah Lamb"
+          id: "designer",          name: "Isaiah Lamb (Executive Designer)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=2",          imageAlt: "Isaiah Lamb"
         },
         {
-          id: "manager",          name: "Anthony Kim (General Manager)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Anthony Kim"
+          id: "manager",          name: "Anthony Kim (General Manager)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg?_wi=3",          imageAlt: "Anthony Kim"
         }
       ]}
     />
