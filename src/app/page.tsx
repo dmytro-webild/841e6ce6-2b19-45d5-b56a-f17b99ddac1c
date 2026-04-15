@@ -57,6 +57,7 @@ export default function LandingPage() {
 
   <div id="about" data-section="about">
       <SplitAbout
+      tag="Why Choose Us"
       textboxLayout="split"
       useInvertedBackground={false}
       title="Design That Drives Growth"
