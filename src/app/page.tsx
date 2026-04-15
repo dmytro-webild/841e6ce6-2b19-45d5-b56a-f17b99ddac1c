@@ -8,7 +8,6 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 
 export default function LandingPage() {
   return (
@@ -32,8 +31,6 @@ export default function LandingPage() {
           name: "About",          id: "about"},
         {
           name: "Services",          id: "features"},
-        {
-          name: "Testimonials",          id: "testimonials"},
         {
           name: "Contact",          id: "contact"},
       ]}
@@ -92,19 +89,6 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-shot-ai-scripts-displayed-pc-monitors_482257-110985.jpg"
       mediaAnimation="blur-reveal"
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFive
-      textboxLayout="split-description"
-      useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",          name: "Growth Focused",          date: "2024",          title: "Client",          quote: "AW Digital Designs delivered exactly what we needed within our budget. Highly responsive and professional.",          tag: "Web Design",          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-equity-analyst-working-proprietary-firm-reading-annual-company-reports-evaluate_482257-132953.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy-global-business_482257-132707.jpg?_wi=2"},
-      ]}
-      title="Trusted by Local Businesses"
-      description="We value the trust our clients place in us to build their digital presence."
     />
   </div>
 
