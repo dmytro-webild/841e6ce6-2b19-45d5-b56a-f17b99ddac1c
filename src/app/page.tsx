@@ -8,6 +8,7 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SplitAbout from '@/components/sections/about/SplitAbout';
+import TeamCardTen from '@/components/sections/team/TeamCardTen';
 
 export default function LandingPage() {
   return (
@@ -27,12 +28,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "About",          id: "about"},
-        {
-          name: "Services",          id: "features"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "About", id: "about" },
+        { name: "Team", id: "team" },
+        { name: "Services", id: "features" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="AW Digital Designs"
     />
@@ -44,8 +43,7 @@ export default function LandingPage() {
       description="Professional web design services for businesses. Custom, high-performance websites for $1500 with reliable maintenance."
       autoplayDelay={5000}
       buttons={[
-        {
-          text: "Get Started",          href: "#contact"},
+        { text: "Get Started", href: "#contact" },
       ]}
       slides={[
         {
@@ -64,15 +62,32 @@ export default function LandingPage() {
       title="Design That Drives Growth"
       description="AW Digital Designs specializes in creating impactful digital storefronts for growing businesses. We combine modern aesthetics with functional performance to ensure your online presence works as hard as you do."
       bulletPoints={[
-        {
-          title: "Flat Fee Pricing",          description: "Full website builds for just $1500."},
-        {
-          title: "Monthly Maintenance",          description: "Keep your site secure and updated for only $50/mo."},
-        {
-          title: "Custom Design",          description: "Tailored layouts that reflect your unique brand identity."},
+        { title: "Flat Fee Pricing", description: "Full website builds for just $1500." },
+        { title: "Monthly Maintenance", description: "Keep your site secure and updated for only $50/mo." },
+        { title: "Custom Design", description: "Tailored layouts that reflect your unique brand identity." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/african-american-team-collaborates-financial-project-business-space_482257-119790.jpg?w=1200&h=800&auto=format&fit=crop&q=90"
       mediaAnimation="slide-up"
+    />
+  </div>
+
+  <div id="team" data-section="team">
+      <TeamCardTen
+      title="Meet the Team"
+      tag="Leadership"
+      memberVariant="card"
+      membersAnimation="slide-up"
+      members={[
+        {
+          id: "ceo",          name: "Aiden Wong (CEO)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Aiden Wong"
+        },
+        {
+          id: "designer",          name: "Isaiah Lamb (Executive Designer)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Isaiah Lamb"
+        },
+        {
+          id: "manager",          name: "Anthony Kim (General Manager)",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CNcldiGztyI994Gl888ENidNAx/uploaded-1776231146249-baww5x8v.jpg",          imageAlt: "Anthony Kim"
+        }
+      ]}
     />
   </div>
 
@@ -82,12 +97,9 @@ export default function LandingPage() {
       title="Our Service Model"
       description="We believe in transparency and simplicity. Our straightforward approach helps your business thrive online without unnecessary complexity."
       accordionItems={[
-        {
-          id: "f1",          title: "Development Fee",          content: "A flat fee of $1500 covers the complete design and development of your professional website."},
-        {
-          id: "f2",          title: "Maintenance Plan",          content: "For just $50/month, we handle updates, security, and minor tweaks to keep your site performing optimally."},
-        {
-          id: "f3",          title: "Client Communication",          content: "Direct support via awdigitalwebdesigns@gmail.com and 571-789-3731."},
+        { id: "f1", title: "Development Fee", content: "A flat fee of $1500 covers the complete design and development of your professional website." },
+        { id: "f2", title: "Maintenance Plan", content: "For just $50/month, we handle updates, security, and minor tweaks to keep your site performing optimally." },
+        { id: "f3", title: "Client Communication", content: "Direct support via awdigitalwebdesigns@gmail.com and 571-789-3731." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-shot-ai-scripts-displayed-pc-monitors_482257-110985.jpg?w=1200&h=800&auto=format&fit=crop&q=90"
       mediaAnimation="blur-reveal"
@@ -97,8 +109,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={true}
-      background={{
-        variant: "sparkles-gradient"}}
+      background={{ variant: "sparkles-gradient" }}
       tag="Contact Us"
       title="Get Your Project Started"
       description="Ready for a professional website? Reach us at awdigitalwebdesigns@gmail.com or call 571-789-3731."
@@ -112,10 +123,8 @@ export default function LandingPage() {
       columns={[
         {
           title: "AW Digital",          items: [
-            {
-              label: "Email: awdigitalwebdesigns@gmail.com",              href: "mailto:awdigitalwebdesigns@gmail.com"},
-            {
-              label: "Phone: 571-789-3731",              href: "tel:+15717893731"},
+            { label: "Email: awdigitalwebdesigns@gmail.com", href: "mailto:awdigitalwebdesigns@gmail.com" },
+            { label: "Phone: 571-789-3731", href: "tel:+15717893731" },
           ],
         },
       ]}
